@@ -13,6 +13,7 @@ bash activatepipe.sh
 docker pull shafinhasnat/sshserver
 docker pull shafinhasnat/termserver
 ```
+`shafinhasnat/termserver` [repository](https://github.com/shafinhasnat/xtermlab)
 
 ## Launch lab application
 ```bash
@@ -26,7 +27,8 @@ docker-compose up -d
 > Response:
 {
     "status": string,
-    "url": string
+    "url": string,
+    "message": string
 }
 
 # launch ssh image
@@ -36,6 +38,7 @@ docker-compose up -d
     "status": string,
     "command": string,
     "password": string
+    "message": string
 }
 
 ```
