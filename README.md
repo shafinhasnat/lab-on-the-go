@@ -30,7 +30,7 @@ docker-compose up -d
 }
 
 # launch ssh image
-[GET] /launch-ssh
+[GET] /launch-vm
 > Response:
 {
     "status": string,
