@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  lab-svc:
+    image: shafinhasnat/poridhi-lab-service:0.0.1
+    ports:
+      - 8080:8080
+    volumes:
+      - ./mypipe.pipe:/hostpipe
